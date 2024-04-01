@@ -1,0 +1,648 @@
+Time: 22/12/2023 07:21:28:371 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000008','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:29:201 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:29:409 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000008','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:29:449 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000008' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:29:454 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000008','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 07:21:29:461 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 07:21:30:164 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000008' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:31:079 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000008', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:31:585 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:31:803 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:32:283 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:36:447 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000008', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:37:449 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000008' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:37:915 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000008','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:38:221 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','131950000008','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:38:279 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:38:344 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:38:360 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','131950000008','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:38:697 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:39:634 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:39:650 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:39:841 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:40:143 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:40:232 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:40:740 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:41:512 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'MASSARO NUSADA ASLIM','UideskIndonesia','131950000008','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:41:765 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:42:274 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','131950000008','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:42:983 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231006141354','UideskIndonesia','131950000008','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:44:332 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231006141354','UideskIndonesia','131950000008','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:50:068 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231006141354','UideskIndonesia','131950000008','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:57:947 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxThreadTemp 'Call','202310190428035052207213428316818','2023101904280350522072134283168182','0213161451','131950000008','20231019042803505','231006141354','MASSARO NUSADA ASLIM'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:21:59:176 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000008' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:00:006 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:00:715 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:00:735 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:00:774 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5314
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 07:22:00:775 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:00:801 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231006141354','131950000008','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:01:184 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:01:478 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:02:276 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:02:788 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000008','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:03:746 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:52:076 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000008' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:52:955 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:53:477 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:53:580 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:53:684 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5314
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 07:22:53:685 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:53:701 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231006141354','131950000008','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:54:150 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:54:231 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000008','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:54:931 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:55:304 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:22:56:328 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:28:078 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000008','Br1life2021!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:28:182 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:28:256 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','131950000008','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:28:258 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='131950000008' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:28:261 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  '131950000008','Br1life2021!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 07:46:28:266 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 07:46:28:454 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000008' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:29:167 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist '131950000008', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:33:328 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open '131950000008', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:33:862 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','131950000008','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:34:089 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:35:830 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000008' And Url='1_doticket.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:091 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','null','131950000008','UIDESK322'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:110 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK306'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:124 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK307'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:156 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'null','UideskIndonesia','131950000008','UIDESK319'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:173 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_Temp_SelectInstanNote '', 'Ticket'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:325 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:339 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:357 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:604 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK304'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:36:634 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:37:115 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK302'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:37:147 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:37:628 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '-','UideskIndonesia','131950000008','UIDESK305'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:38:563 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK303'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:39:062 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'UideskIndonesia','UideskIndonesia','131950000008','UIDESK301'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:49:452 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket 'MASSARO NUSADA ASLIM','UideskIndonesia','131950000008','UIDESK324'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:50:689 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231006141354','UideskIndonesia','131950000008','UIDESK313'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:53:056 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231006141354','UideskIndonesia','131950000008','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:46:56:824 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrxTransactionTicket '231006141354','UideskIndonesia','131950000008','UIDESK321'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:06:158 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_TrxThreadTemp 'Call','202310190428035052207463265553686','2023101904280350522074632655536865','0213161451','131950000008','20231019042803505','231006141354','MASSARO NUSADA ASLIM'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:06:392 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000008' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:06:702 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:07:460 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:07:693 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000008','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:07:899 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:08:653 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:08:848 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:08:870 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:08:917 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:09:384 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231006141354','131950000008','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:47:09:918 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5314
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 07:47:09:921 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:00:58:854 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='131950000008' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:00:59:206 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:00:59:296 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:00:59:311 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:00:59:345 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK60'
+Message: Error converting data type varchar to bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5314
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 08:00:59:345 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:00:59:359 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '231006141354','131950000008','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:00:59:823 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:01:00:140 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','131950000008','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:01:00:310 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:01:00:679 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231019042803505','131950000008','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 08:01:00:818 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','131950000008','UIDESK14'
+---------------------------Success-------------------------------------------------------
+

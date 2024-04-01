@@ -1,0 +1,50 @@
+Time: 29/03/2024 04:25:53:589 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 05:27:22:141 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 05:28:29:841 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Agent1'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 05:42:24:624 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 05:42:32:235 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 05:51:19:740 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='4_Reports_base_trx_new.aspx' OR UrlUser2='4_Reports_base_trx_new.aspx' OR UrlUser3='4_Reports_base_trx_new.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 05:55:45:327 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='4_Reports_base_trx_new.aspx' OR UrlUser2='4_Reports_base_trx_new.aspx' OR UrlUser3='4_Reports_base_trx_new.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 02:00:16:539 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 02:48:45:964 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='1_doticket.aspx' OR UrlUser2='1_doticket.aspx' OR UrlUser3='1_doticket.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 29/03/2024 03:38:22:214 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='4_Reports_staff_new.aspx' OR UrlUser2='4_Reports_staff_new.aspx' OR UrlUser3='4_Reports_staff_new.aspx')
+---------------------------Success-------------------------------------------------------
+

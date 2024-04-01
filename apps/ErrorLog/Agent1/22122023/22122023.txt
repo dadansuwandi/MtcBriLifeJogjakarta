@@ -1,0 +1,826 @@
+Time: 22/12/2023 06:54:58:702 PM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:54:58:758 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM UIDESK_SOCIAL_ACCOUNT WHERE AccountID=''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:54:59:121 PM
+---------------------------Success-------------------------------------------------------
+Message: exec UIDESK_SP_TrxLoginActivity '9','Agent1','Insert'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:54:59:174 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT TOP 1 * FROM UIDESK_TrxAux WHERE AuxUserName='Agent1' ORDER BY ID DESC
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:54:59:175 PM
+---------------------------Failed-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Agent1','Uidesk123!'
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.CheckLicense() in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 192
+   at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 118
+Source: ICC
+TargetSite: Void CheckLicense()
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 06:54:59:179 PM
+---------------------------Failed-------------------------------------------------------
+Message: Select COUNT (UserID) as userID from msUser where UserName=@uservalue
+Message: Thread was being aborted.
+StackTrace:    at ICC.auth_local.AccessLogin(String UserName, String Password) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 126
+   at ICC.auth_local.Login_ButtonSubmit_ServerClick(Object sender, EventArgs e) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\auth_local.aspx.vb:line 59
+Source: ICC
+TargetSite: System.Object AccessLogin(System.String, System.String)
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 06:55:00:655 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:01:316 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:01:759 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:01:844 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:02:272 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:03:041 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'null', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:04:797 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='2_taskboard.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:04:835 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:05:861 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec SP_TempKotakTodolist 'Agent1', '1', 'layer1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:06:385 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '4','Agent1','UIDESK73'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:06:906 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:07:369 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:08:056 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec NEW_Sp_Open 'Agent1', 'Open', '1',''
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:08:392 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:21:244 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:21:922 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:22:215 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:22:235 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:22:837 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5314
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 06:55:22:838 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:22:890 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '211216141202','Agent1','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:23:250 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:23:412 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:23:758 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:23:931 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:24:342 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Agent1','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:50:092 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Update_TransactionTicket_New '20231107091032318','<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+','Open','Agent1', 'No','0', '0', '1065', '2', '1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:51:263 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:52:398 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:52:416 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:52:434 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:52:550 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5314
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 06:55:52:551 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:52:566 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '211216141202','Agent1','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:52:716 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:52:782 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Agent1','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:53:242 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:53:344 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:55:53:824 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:01:118 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '55976','Agent1','UIDESK64'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:18:758 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '55976','Agent1','UIDESK64'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:49:997 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Update_TransactionTicket_New '20231107091032318','<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian</p>
+','Open','Agent1', 'No','null', 'null', '1065', '2', '1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:50:669 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:51:441 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:51:629 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:51:671 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:51:777 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5314
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 06:56:51:778 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:51:832 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '211216141202','Agent1','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:52:132 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:52:222 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Agent1','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:52:642 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:52:817 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:56:53:760 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:57:31:672 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '55977','Agent1','UIDESK64'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:21:068 PM
+---------------------------Success-------------------------------------------------------
+Message: exec Update_TransactionTicket_New '20231107091032318','<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian.</p>
+
+<p>&nbsp;</p>
+
+<p>Ada rumor baru beredar seputar masa depan <a href="https://www.bola.net/tag/mason-greenwood/">Mason Greenwood</a>. Sang striker dilaporkan tidak akan kembali ke <a href="https://www.bola.net/tag/manchester-united/">Manchester United</a> di musim depan.</p>
+
+<p>Greenwood merupakan pemain jebolan akademi Manchester United. Namun karena ia tersandung kasus hukum, ia harus diungsikan ke Getafe di musim 2023/2024.</p>
+
+<p>Di Getafe, Greenwood mulai menunjukkan performa terbaiknya. Alhasil mulai banyak klub-klub top Eropa meminati jasanya.</p>
+
+<p>Ada beberapa rumor yang menyebut MU akan memulangkan Greenwood di musim depan. Namun <em>talkSPORT</em> melaporkan bahwa situasinya tidak demikian</p>
+
+<p>XXXXX</p>
+
+<p>12345</p>
+','Open','Agent1', 'No','null', 'null', '1065', '2', '1'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:22:014 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM USER_SettingChannel Where UserName='Agent1' And Url='1_journey.aspx'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:22:861 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK55'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:23:117 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK66'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:23:177 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK59'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:23:576 PM
+---------------------------Failed-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK60'
+Message: Arithmetic overflow error converting expression to data type bigint.
+StackTrace:    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TrySetMetaData(_SqlMetaDataSet metaData, Boolean moreInfo)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at ICC.WebServiceGetDataMaster.UIDESK_TrmMasterCombo(String TrxID, String TrxUserName, String TrxAction) in D:\BRI Life OmniChannel\BRI Life Fhase 2\APPS\helpdesk_agent\apps\WebServiceGetDataMaster.asmx.vb:line 5314
+Source: .Net SqlClient Data Provider
+TargetSite: Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])
+---------------------------Failed-------------------------------------------------------
+
+Time: 22/12/2023 06:58:23:577 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK60'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:23:612 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '211216141202','Agent1','UIDESK53'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:24:000 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK14'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:24:214 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK54'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:24:531 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown 'UideskIndonesia','Agent1','UIDESK84'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:24:749 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK56'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:25:123 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '1','Agent1','UIDESK57'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:58:29:619 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '55978','Agent1','UIDESK64'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 06:59:22:596 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '20231107091032318','Agent1','UIDESK58'
+---------------------------Success-------------------------------------------------------
+
+Time: 22/12/2023 07:08:37:423 PM
+---------------------------Success-------------------------------------------------------
+Message: Exec UIDESK_TrmDropdown '55978','Agent1','UIDESK64'
+---------------------------Success-------------------------------------------------------
+

@@ -1,0 +1,35 @@
+Time: 14/03/2024 09:49:37:431 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk3211'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/03/2024 09:49:39:318 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/03/2024 10:26:47:805 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='2_taskboard.aspx' OR UrlUser2='2_taskboard.aspx' OR UrlUser3='2_taskboard.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/03/2024 10:26:59:819 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/03/2024 11:44:21:929 AM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='4_Reports_base_trx_new.aspx' OR UrlUser2='4_Reports_base_trx_new.aspx' OR UrlUser3='4_Reports_base_trx_new.aspx')
+---------------------------Success-------------------------------------------------------
+
+Time: 14/03/2024 11:44:30:065 AM
+---------------------------Success-------------------------------------------------------
+Message: exec SP_LOGIN_APPLIKASI  'Admin','Uidesk123!'
+---------------------------Success-------------------------------------------------------
+
+Time: 14/03/2024 12:27:49:508 PM
+---------------------------Success-------------------------------------------------------
+Message: SELECT * FROM TrmMenuPreviledge Where USERID='' And (UrlUser1='4_Reports_base_trx_new.aspx' OR UrlUser2='4_Reports_base_trx_new.aspx' OR UrlUser3='4_Reports_base_trx_new.aspx')
+---------------------------Success-------------------------------------------------------
+
